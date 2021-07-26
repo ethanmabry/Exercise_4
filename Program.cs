@@ -17,7 +17,9 @@ namespace DeclaringVariables
             bool myBool = false;
             char myChar = 'e';
 
-            Console.WriteLine(myInt);
+            Console.WriteLine("The value of my int is {0}", myInt);
+
+            Console.WriteLine("The value of my int is " + myInt + " and the value of my double is " + myDouble);
         }
     }
 }
